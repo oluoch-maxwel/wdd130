@@ -1,0 +1,74 @@
+html {
+    font-size: 62.5%;
+}
+
+header {
+    width: 60%;
+    margin: 0 auto;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 0.5px;
+    font-size: 28px;
+}
+
+main {
+    max-width: 60%;
+    width: 100%;
+    margin: 0 auto;
+    align-items: center;
+}
+
+main h1 {
+    text-align: center;
+    font-size: 32px;
+}
+
+main picture img {
+    display: block;
+    margin: 0 auto;
+    max-width: 55%;
+    width: 100%;
+    box-shadow: 0 0 20px black;
+    display: block;
+}
+
+section {
+    display: block;
+    margin: 20px auto;
+    background-color: rgb(228, 220, 220);
+    width: 50%;
+    padding: 10px 20px;
+}
+
+main {
+    display: block;
+    margin: 0 auto;
+}
+
+main section h2 {
+    border-bottom: 0.2px solid black;
+    padding: 0 10px;
+    font-size: 24px;
+}
+
+main section p {
+    padding: 28px 10px;
+    font-size: 18px;
+    margin: 15px auto;
+}
+
+main section ul {
+    padding: 10px;
+    font-size: 18px;
+}
+
+footer {
+    width: 60%;
+    margin: 0 auto;
+    background-color: black;
+    color: white;
+    padding: 0.1px;
+    text-align: center;
+    font-size: 20px;
+}
