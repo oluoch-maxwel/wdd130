@@ -49,6 +49,7 @@ main p {
 /* Profile Image */
 main img {
     float: right;
+    clear: both;
     width: 100px;
     height: auto;
     border: var(--border);
