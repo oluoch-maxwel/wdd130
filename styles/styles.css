@@ -1,10 +1,19 @@
+:root {
+    --background-color: darkblue;
+    --color-black: black;
+    --color-white: white;
+    --border: 1px solid #000;
+    --aside-background-color: rgb(247, 243, 243);
+
+}
+
 nav {
-    background-color: darkblue;
+    background-color: var(--background-color);
     padding: 10px;
 }
 
 nav a {
-    color: white;
+    color: var(--color-white);
     display: block;
     padding: 20px;
 }
@@ -20,7 +29,7 @@ main h1 {
 main img {
     width: 150px;
     height: auto;
-    border: 1px solid black;
+    border: var(--border);
     padding: 2px;
     box-shadow: 0 0 30px gray;
 }
@@ -35,9 +44,9 @@ aside {
     margin: 20px 0;
     padding: 10px;
     width: 98%;
-    color: black;
-    border: 1px solid black;
-    background-color: rgb(247, 243, 243);
+    color: var(--color-black);
+    border: var(--border);
+    background-color: var(--aside-background-color);
 }
 
 aside img {
@@ -49,8 +58,8 @@ footer {
     margin-top: 20px;
     border-top: 1px solid #000;
     text-align: center;
-    color: white;
-    background-color: darkblue;
+    color: var(--color-white);
+    background-color: var(--background-color);
     padding: 10px;
 }
 
@@ -65,8 +74,8 @@ aside {
     margin: 20px 0;
     padding: 10px;
     width: 98%;
-    color: black;
-    border: 1px solid black;
+    color: var(--color-black);
+    border: var(--border);
     background-color: rgb(247, 243, 243);
 }
 
@@ -77,9 +86,9 @@ aside img {
 
 footer {
     margin-top: 20px;
-    border-top: 1px solid #000;
+    border-top: var(--border);
     text-align: center;
-    color: white;
-    background-color: darkblue;
+    color: var(--color-white);
+    background-color: var(--background-color);
     padding: 10px;
 }
