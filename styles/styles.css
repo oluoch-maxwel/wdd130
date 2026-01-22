@@ -3,80 +3,91 @@
     --color-black: black;
     --color-white: white;
     --border: 1px solid #000;
-    --aside-background-color: rgb(247, 243, 243);
-
 }
 
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navigation */
 nav {
     background-color: var(--background-color);
+    width: 100%;
     padding: 10px;
 }
 
 nav a {
     color: var(--color-white);
-    display: block;
+    display: inline-block;
     padding: 20px;
+    text-decoration: none;
 }
 
+/* Main Layout */
 main {
     max-width: 1200px;
+    width: 600px;
+    margin: 0 auto;
+    padding: 2rem;
 }
 
+/* Headings */
 main h1 {
     color: darkblue;
+    margin-top: 3rem;
 }
 
+/* Paragraphs */
+main p {
+    padding: 0;
+    font-size: 20px;
+}
+
+/* Profile Image */
 main img {
-    width: 150px;
+    float: right;
+    width: 100px;
     height: auto;
     border: var(--border);
     padding: 2px;
     box-shadow: 0 0 30px gray;
 }
 
-main p {
-    padding: 0;
-    font-size: 20px;
+/* Top list */
+#top {
+    margin-top: 4rem;
+    list-style: none;
 }
 
-aside {
-    font-size: 20px;
-    margin: 20px 0;
-    padding: 10px;
-    width: 98%;
-    color: var(--color-black);
-    border: var(--border);
-    background-color: var(--aside-background-color);
+#top ul li {
+    color: #fff;
 }
 
-aside img {
-    width: 200px;
-    height: auto;
-}
-
-footer {
-    margin-top: 20px;
-    border-top: 1px solid #000;
-    text-align: center;
+/* Box style (for lists & aside) */
+.box {
+    margin: 1rem;
+    border: 1px solid #000;
+    padding: 1rem;
     color: var(--color-white);
-    background-color: var(--background-color);
-    padding: 10px;
+    background-color: #26584c;
 }
 
-main p {
-    padding: 0;
-    font-size: 20px;
-}
-
+/* Aside */
 aside {
-    max-width: 1200px;
-    font-size: 20px;
-    margin: 20px 0;
-    padding: 10px;
+    position: relative;
     width: 98%;
-    color: var(--color-black);
-    border: var(--border);
-    background-color: rgb(247, 243, 243);
+    max-width: 1200px;
+    text-align: center;
+}
+
+aside h2 {
+    color: black;
+    position: absolute;
+    top: 10%;
+    left: 52%;
 }
 
 aside img {
@@ -84,6 +95,7 @@ aside img {
     height: auto;
 }
 
+/* Footer */
 footer {
     margin-top: 20px;
     border-top: var(--border);
