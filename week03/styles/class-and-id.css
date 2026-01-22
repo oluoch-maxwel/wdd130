@@ -10,14 +10,12 @@ h1 {
     padding-bottom: 0;
 }
 
-
-
 p {
     margin: 0;
 }
 
 code {
-    color: darkgreen;
+    color: rgb(100, 3, 0);
     font-weight: 700;
     font-size: 1.4rem;
 }
@@ -28,7 +26,8 @@ code {
     margin: 20px 0;
     border: 1px solid rgb(0 0 0 / 10%);
     padding: 10px;
-    background-color: #ddd; /* this is shorthand for #dddddd */
+    background-color: #ddd;
+    /* this is shorthand for #dddddd */
 }
 
 .highlight {
@@ -55,4 +54,3 @@ code {
     border-radius: 20px;
     padding: 20px
 }
-
