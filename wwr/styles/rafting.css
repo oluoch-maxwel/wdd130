@@ -55,7 +55,7 @@ article {
 
 h1 {
     position: absolute;
-    width: 98%;
+    width: 100%;
     padding: 16px;
     text-align: center;
     opacity: 0.4;
@@ -63,14 +63,23 @@ h1 {
     color: #fa0404;
 }
 
+article {
+    position: absolute;
+    top: 65%;
+    background-color: var(--accent1);
+    color: white;
+    border-radius: 3%;
+}
+
 .hero article img {
     float: right;
     width: 125px;
+    border-radius: 5%;
 }
 
 .overlay {
     position: absolute;
-    top: 58%;
+    top: 20%;
     background-color: var(--accent2-color);
     padding-top: 1rem;
     opacity: 0.7;
@@ -81,7 +90,7 @@ h1 {
     margin: 0;
 }
 
-.hero-sec h2 {
+h2 {
     background-color: rgb(11, 11, 143);
     text-align: center;
     color: white;
@@ -93,7 +102,7 @@ footer {
     border-top: 1px solid #000;
 }
 
-.social-media {
+.social-media a {
     text-decoration: none;
 }
 
